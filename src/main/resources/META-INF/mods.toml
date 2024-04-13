@@ -1,0 +1,18 @@
+modLoader="javafml" #mandatory
+loaderVersion="[46,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="GNU LESSER GENERAL PUBLIC LICENSE"
+issueTrackerURL="https://github.com/AlexModGuy/BackUpBeds/issues" #optional
+[[mods]] #mandatory
+modId="backupbeds" #mandatory
+version="1.0.0" #mandatory
+displayName="Back Up Beds" #mandatory
+displayURL="" #optional
+logoFile="assets/backupbeds/textures/mod_logo.png" #optional
+authors="Alexthe668" #optional
+description='''Now you can have multiple beds that you can respawn in.'''
+[[dependencies.backupbeds]]
+modId="forge"
+mandatory=false
+versionRange="[47.1.3,)"
+ordering="NONE"
+side="BOTH"

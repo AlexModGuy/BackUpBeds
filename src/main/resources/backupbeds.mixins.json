@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.github.alexmodguy.backupbeds.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "target": "@env(DEFAULT)",
+  "refmap": "backupbeds.refmap.json",
+  "mixins": [
+    "ServerPlayerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
